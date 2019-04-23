@@ -1,0 +1,29 @@
+
+body {    
+    background-image:url('img/background.png');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+font-family: 'Noto Serif TC', serif;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  max-width: 500px;
+  margin: 0 auto;
+  background: rgb(46,95,122);
+}
+nav li {
+  text-align: left;
+}
+nav a {
+  display: block;
+  padding: 3px 15px;
+  color: #fff;
+  text-decoration: none;
+}
+nav a:hover {
+  background: rgb(96,145,172);
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Регистрация</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Регистрация на новостном сайте">
+    <meta name="keywords" content="">
+</head>
+<body align="center" background="img/background.png" style="font-family: Helvetica, Arial, Verdana, sans-serif">
+    <form action="#" method="POST"
+    enctype="multipart/form-data">
+    <fieldset>
+        <legend>Форма регистрации</legend>
+        <p>
+            <label for="text">Логин:
+            <input id="text" type="text" minlength="5" required placeholder="Имя"></label>
+        </p>
+        <p>
+            <label>Почтовый адрес:
+            <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required placeholder="admin@test.com"><label>
+        </p>
+        <p>
+            <label>Пароль:
+            <input type="password" minlength="8" required placeholder="Введите пароль"><label>
+        </p>
+        <p>
+            <label>Подтверждение пароля:
+            <input type="password" minlength="8" required placeholder="Повторите пароль"><label>
+        </p>
+        <p>
+            <label>Фото профиля:
+            <input type="file" accept="image/*">
+        </p>
+        <p>
+            <label><input checked type="checkbox">Мне больше 18 лет</label>
+        </p>
+        <p>
+            <label><input checked type="checkbox">Согласен получать новостную рассылку</label>
+        </p>
+        <p>
+            <button name="submit_btn" value="some_value" type="submit">Зарегистрироваться</button>
+        </p>
+    </fieldset>
+    </form>
+</body>
+</html>
