@@ -6,17 +6,19 @@ body {
 font-family: 'Noto Serif TC', serif;
 }
 
+
 nav li {
   margin: 0;
   padding: 0;
 }
 nav {
-  max-width: 500px;
+  max-width: 1200px;
   margin: 0 auto;
   background: rgb(46,95,122);
 }
 nav li {
-  text-align: left;
+  display: inline-block;
+  text-align: center;
 }
 nav a {
   display: block;
