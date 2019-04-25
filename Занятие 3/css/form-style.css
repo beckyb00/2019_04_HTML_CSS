@@ -1,0 +1,11 @@
+
+.body {
+    height:100%;
+    width:100%;
+    background-image: url('.img/ferris-wheel.png') no-repeat;
+    background-size:cover;
+    position:fixed;
+    top:0;
+    left:0;
+    box-sizing:border-box;
+}

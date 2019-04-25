@@ -5,81 +5,71 @@
         <title>Анкета участника</title>
         <meta name="description" content="Анкета участника">
         <meta name="keywords" content="">
-        <style>
-            body {
-                height:100%;
-                width:100%;
-                background:url('img/ferris-wheel.png') no-repeat;
-                background-size:cover;
-                position:fixed;
-                top:0;
-                left:0;
-                box-sizing:border-box;
-            }
-        </style>
+        <link rel="stylesheet" href="css/form-style.css">
     </head>
     <body align="center" background="img/ferris-wheel.png">
         <form action="#" method="POST" enctype="multipart/form-data">
-        <fieldset>
-            <legend>Для участия заполните форму:</legend>
-            <p>
-                <label for="text">Фамилия:
-                <input id="text" type="text" required></label>
-                <label for="text">Имя:
-                <input id="text" type="text" required></label>
-                <br>
-                <br>
-                <label for="text">Отчество:
-                <input id="text" type="text" required></label>
-            </p>
-            <p>
-                <label for="text">Пол: 
-                <input name="answer" type="radio" required>Мужской</label>
-                <label><input name="answer" type="radio" required>Женский </label>
-            </p>
-            <p>
-				<label for="date">Дата рождения:</label>
-				<input id="date" min="2012-12-12" type="date" required>
-            </p>
-            <p>
-                <label for="text" required>Уровень физической подготовки</label>
-                <select>
-                    <option>Начальный</option>
-                    <option>Средний</option>
-                    <option>Высокий</option>
-                </select>
-            </p>
-            <p>
-                <label for="text">Виды спорта, которыми занимаетесь:</label>
-				<textarea cols="50" rows="4" required
-                    autofocus required></textarea>
-            </p>
-            <p>
-                <label>Фото:
-                <input type="file" accept="image/*">
-            </p>
-        </fieldset>
-        <fieldset>
+            <fieldset>
+                <legend>Для участия заполните форму:</legend>
+                <p>
+                    <label for="text">Фамилия:<input id="text" type="text" required></label>
+                    <label for="text">Имя:<input id="text" type="text" required></label>
+                    <br>
+                    <br>
+                    <label for="text">Отчество:<input id="text" type="text" required></label>
+                </p>
+                <p>
+                    <label for="text" required>Пол: 
+                        <input name="answer" type="radio">Мужской
+                        <input name="answer" type="radio">Женский
+                    </label>
+                </p>
+                <p>
+                    <label for="date">Дата рождения:<input id="date" min="2012-12-12" type="date" required></label> 
+                </p>
+                <p>
+                    <label for="text" required>Уровень физической подготовки
+                        <select>
+                            <option>Начальный</option>
+                            <option>Средний</option>
+                            <option>Высокий</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label for="text">Виды спорта, которыми занимаетесь:
+                        <textarea cols="50" rows="4" required></textarea>
+                    </label>
+                </p>
+                <p>
+                    <label>Фото:<input type="file" accept="image/*"></label>
+                </p>
+            </fieldset>
+            <fieldset>
                 <legend>Контактная информация:</legend>
-            <p>
-                <label>Почтовый адрес:
-                <input type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required placeholder="address@test.com"><label>
-            </p>
-            <p>
-                <label>Контактный телефон:
-                <input type="text" required><label>
-            </p>
-            <p>
-                <label><input type="checkbox">С правилами участия ознакомлен</label>
-            </p>
-            <p>
-				<input type="reset"
-					value="Очистить поля формы">
-			</p>
-            <p>
-                <button name="submit_btn" value="some_value" type="submit">Отправить данные формы</button>
-            </p>
-        </fieldset>
+                <p>
+                    <label>Почтовый адрес:
+                        <input type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required placeholder="address@test.com">
+                    <label>
+                </p>
+                <p>
+                    <label>Контактный телефон:
+                        <input type="text" required>
+                    <label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox">С правилами участия ознакомлен
+                    </label>
+                </p>
+                <p>
+                    <input type="reset"
+                        value="Очистить поля формы">
+                </p>
+                <p>
+                    <button name="submit_btn" value="some_value" type="submit">Отправить данные формы</button>
+                </p>
+            </fieldset>
         </form>
     </body>
 </html>
