@@ -1,0 +1,77 @@
+@import url("./grid.css");
+
+body {
+	margin: 0;
+}
+
+
+
+.nav li {
+	margin: 0;
+	padding: 0;
+}
+.nav {
+	margin: 0 400px;
+	background: rgb(255, 255, 255);
+	position: fixed;
+	top: 0px;
+	
+}
+.nav li {
+	display: inline-block;
+
+	width: 50%;
+	text-align: center;
+}
+.nav a {
+	display: block;
+	padding: 3px 30px;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+.nav a:hover {
+	background: rgb(165, 165, 165);
+}
+  
+
+.container {
+	max-width: 1000px;
+	margin: auto;
+}
+
+.slider {
+	padding: 1100;
+    /* top right-left bottom */
+	margin: 20 10 30px; /* убираем марджин от браузера*/
+	list-style-type: none;
+}
+
+.slider li {
+??	???display: none;?
+}
+
+.slider li.active {
+	display: block;
+}
+
+.card {
+	border: 1px solid black;
+	height:150px;
+	width: 320px;
+	margin: 5px;
+}
+
+.card2 {
+	height: 475px;
+	width: 270px;
+	margin: 5px;
+}
+.card3 {
+
+	height: 150px;
+	width: 650px;
+	margin: 5px;
+}
+.cards {
+
+}
