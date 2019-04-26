@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Музыкальный портал</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Музыкальный портал">
+        <meta name="keywords" content="">
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+                body {    
+                    background-image: url('img/720.jpg');
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                }
+        </style>
+    </head>
+<body>
+	<div class="flex">
+        <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Музыка</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Исполнители</a></li>
+                    <li><a href="#">Жанры</a></li>
+                    <li><a href="#">Новые релизы</a></li>
+                </ul>
+            </li>
+            <li><a href="#">События</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Фестивали</a></li>
+                    <li><a href="#">Рядом с тобой</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Избранное</a></li>
+            <li><a href="#form">Присоединиться</a></li>
+        </ul>
+    </div>
+    <div id="form" class="form">
+            <form>
+                <h3>Форма регистрации</h3>
+                <p>
+                    <label for="text">Логин:
+                    <input id="text" type="text" minlength="5" required placeholder="Имя"></label>
+                </p>
+                <p>
+                    <label>Почтовый адрес:
+                    <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required placeholder="admin@test.com"><label>
+                 </p>
+                <p>
+                    <label>Пароль:
+                    <input type="password" minlength="8" required placeholder="Введите пароль"><label>
+                </p>
+                <p>
+                    <label>Подтверждение пароля:
+                    <input type="password" minlength="8" required placeholder="Повторите пароль"><label>
+                </p>
+                <p>
+                    <label>Фото профиля:
+                    <input type="file" accept="image/*">
+                </p>
+                <p>
+                    <label><input checked type="checkbox">Мне больше 18 лет</label>
+                </p>
+                <p>
+                    <label><input checked type="checkbox">Согласен получать новостную рассылку</label>
+                </p>
+                <p>
+                    <a href="#" class="link_button">Зарегистрироваться</a>
+                </p>
+            </form>
+        </div>
+  <br><br><br><br><br>
+    
+    <div id="content-slider">
+        <div id="content">
+            <div id="content-inner-1">
+                <div id="content-inner-2">
+                    <div id="content-inner-3">
+                        <div id="content-inner">
+                            <div class="page" id="page1"><img src="img/f14.png" alt="test1" title="test1">
+                                <div class="page-info" id="info1"><h2>Glitch</h2>
+                                    <div class="page-text">Основан на нетрадиционных звуковых эффектах, получаемых в результате сбоев и неполадок электронного музыкального оборудования.</div>
+                                </div>
+                            </div>
+                            <div class="page" id="page2"><img src="img/f7a.jpg" alt="test2" title="test2">
+                                <div class="page-info" id="info2"><h2>Drum'n'Base</h2>
+                                    <div class="page-text">Стиль возник, когда музыканты стали смешивать бас из регги с ускоренным брейкбитом из хип-хопа.</div>
+                                </div>
+                            </div>
+                            <div class="page" id="page3"><img src="img/d74.png" alt="test3" title="test3">
+                                <div class="page-info" id="info3"><h2>Psychedelic</h2>
+                                    <div class="page-text">Психоделия — сложная, экспрессивная музыка, сильно воздействующая на слушателя.</div>
+                                </div>
+                            </div>
+                        </div>       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul id="nav">
+            <li class="button" id="button1"><a href="#content-inner-1"></a></li>
+            <li class="button" id="button2"><a href="#content-inner-2"></a></li>
+            <li class="button" id="button3"><a href="#content-inner-3"></a></li>
+        </ul>
+    </div>  
+
+
+    <div class="container">
+        <div class="col-8">
+            <div class="row cards">
+                <div class="col-5">
+                    <div class="card"><img src="img/73.jpg" >
+                        <h5><span>Acid</span></h5>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card"><img src="img/a3.png">
+                        <h5><span>Trip-Hop</span></h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row cards">
+                <div class="col-7">
+                    <div class="card3"><img src="img/0cf.jpg">
+                        <h5><span>Techno</span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row cards">
+                <div class="col-7">
+                    <div class="card3"><img src="img/77322a.jpg">
+                        <h5><span>Ambient</span></h5>
+                    </div>
+                </div>
+            </div> 
+        </div>    
+        <div class="col-4">
+            <div class="card2"><img src="img/440.jpg">
+                <h5><span>Electronic</span></h5>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
