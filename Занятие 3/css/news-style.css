@@ -1,9 +1,13 @@
 
 body {    
-  background-image:url('img/background.png');
-  background-repeat:no-repeat;
-  background-attachment:fixed;
-
+  height:100%;
+  width:100%;
+  background-image: url('.img/background.png') no-repeat;
+  /*background-repeat: no-repeat;*/
+  background-position: fixed;
+  top:0;
+  left:0;
+  
   font-family: Helvetica, Arial, sans-serif;
   
 }
