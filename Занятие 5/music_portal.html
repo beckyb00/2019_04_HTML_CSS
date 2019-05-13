@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Музыкальный портал</title>
+        <title>My MusicBox</title>
         <meta charset="UTF-8">
         <meta name="description" content="Музыкальный портал">
         <meta name="keywords" content="">
@@ -11,30 +11,33 @@
                     background-image: url('img/720.jpg');
                     background-repeat: no-repeat;
                     background-attachment: fixed;
+                    background-size: cover;
                 }
         </style>
     </head>
 <body>
-	<div class="flex">
-        <ul>
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">Музыка</a>
-                <ul class="sub-menu">
-                    <li><a href="#">Исполнители</a></li>
-                    <li><a href="#">Жанры</a></li>
-                    <li><a href="#">Новые релизы</a></li>
-                </ul>
-            </li>
-            <li><a href="#">События</a>
-                <ul class="sub-menu">
-                    <li><a href="#">Фестивали</a></li>
-                    <li><a href="#">Рядом с тобой</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Избранное</a></li>
-            <li><a href="#form">Присоединиться</a></li>
-        </ul>
-    </div>
+    <header>
+        <nav>
+            <ul class="topmenu">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#"class="submenu-link">Музыка  <img src="img/стрелочка.png" height="10px" width="10px"></a>
+                    <ul class="submenu">
+                        <li><a href="#">Исполнители</a></li>
+                        <li><a href="#">Жанры</a></li>
+                        <li><a href="#">Новые релизы</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="submenu-link">События <img src="img/стрелочка.png" height="10px" width="10px"></a>
+                    <ul class="submenu">
+                        <li><a href="festivals.html">Фестивали</a></li>
+                        <li><a href="events.html">Рядом с тобой</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Избранное</a></li>
+                <li><a href="#form">Присоединиться</a></li>
+            </ul>
+        </nav>
+    </header>
     <div id="form" class="form">
             <form>
                 <h3>Форма регистрации</h3>
@@ -103,7 +106,7 @@
             <li class="button" id="button3"><a href="#content-inner-3"></a></li>
         </ul>
     </div>  
-
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     <div class="container">
         <div class="col-8">
